@@ -1,1 +1,2 @@
 # Task3.4--CRUD-Routes
+CRUD Routes: Extend the Task 2.4 student mini-app to use the Mongoose Student model instead of the in-memory array. Implement: GET /students (fetch all from DB and render list); GET /students/:id (fetch one by ObjectId and render detail page); POST /students (create new document from form data and redirect to list); POST /students/:id/edit (update document and redirect); POST /students/:id/delete (delete document and redirect).
