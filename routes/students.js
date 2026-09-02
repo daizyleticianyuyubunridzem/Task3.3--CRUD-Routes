@@ -4,7 +4,6 @@ const router = express.Router();
 const Student = require('../models/Student');
 
 
-
 router.get('/', async(req,res) => {
     const students = await Student.find().sort({enrollmentDate: -1});
     res.render('students', {students})
